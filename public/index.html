@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Advanced Flipbook</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Page Flip -->
+  <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/page-flip.browser.min.js"></script>
+
+  <!-- PDF.js -->
+  <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+</head>
+
+<body>
+  <h1>Advanced Flipbook (Lazy Loading)</h1>
+
+  <div id="controls">
+    <button id="prevBtn">⟵ Prev</button>
+    <button id="nextBtn">Next ⟶</button>
+
+    <input id="pageNumber" type="number" min="1" placeholder="Page #">
+    <button id="jumpBtn">Go</button>
+  </div>
+
+  <div id="book"></div>
+
+  <div id="loader">
+    <img src="spinner.gif" width="60" />
+    <p>Loading...</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

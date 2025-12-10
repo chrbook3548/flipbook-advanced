@@ -1,0 +1,13 @@
+{
+  "name": "advanced-flipbook",
+  "version": "1.0.0",
+  "description": "Advanced PDF Flipbook with Lazy Loading",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "node-fetch": "^2.6.9"
+  }
+}
