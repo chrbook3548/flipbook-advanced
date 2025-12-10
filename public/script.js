@@ -1,5 +1,5 @@
 // Proxy endpoint
-const PDF_URL = "/pdf";
+const PDF_URL = "https://flipbook-advanced.onrender.com/pdf";
 
 // PDF.js worker
 pdfjsLib.GlobalWorkerOptions.workerSrc =
@@ -103,3 +103,4 @@ function hideLoader() {
 
 // Start
 init();
+
